@@ -1,0 +1,497 @@
+[09-Jun-2025 03:08:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\login\forgot-password.php:28
+Stack trace:
+#0 C:\xampp\htdocs\login\forgot-password.php(28): mysqli_prepare(Object(mysqli), 'SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\forgot-password.php on line 28
+[09-Jun-2025 03:11:24 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\login\forgot-password.php:28
+Stack trace:
+#0 C:\xampp\htdocs\login\forgot-password.php(28): mysqli_prepare(Object(mysqli), 'SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\forgot-password.php on line 28
+[09-Jun-2025 03:12:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\login\forgot-password.php:28
+Stack trace:
+#0 C:\xampp\htdocs\login\forgot-password.php(28): mysqli_prepare(Object(mysqli), 'SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\forgot-password.php on line 28
+[09-Jun-2025 03:15:17 Europe/Berlin] PHP Warning:  Constant SECURE_ACCESS already defined in C:\xampp\htdocs\login\EmailService.php on line 15
+[09-Jun-2025 03:27:42 Europe/Berlin] PHP Warning:  Constant SECURE_ACCESS already defined in C:\xampp\htdocs\login\EmailService.php on line 15
+[09-Jun-2025 03:32:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\login\PHPMailer\src\SMTP.php:314) in C:\xampp\htdocs\login\ForgetPassword.php on line 73
+[09-Jun-2025 03:38:28 Europe/Berlin] Password reset error: Table 'login_db.password_resets' doesn't exist
+[09-Jun-2025 03:39:15 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\login\PHPMailer\src\SMTP.php:314) in C:\xampp\htdocs\login\forgot-password.php on line 73
+[09-Jun-2025 03:44:26 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\login\forgot-password.php on line 47
+[09-Jun-2025 03:44:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\login\EmailService.php on line 142
+[09-Jun-2025 03:44:50 Europe/Berlin] Password reset error: Table 'login_db.password_resets' doesn't exist
+[09-Jun-2025 03:45:00 Europe/Berlin] Password reset error: Table 'login_db.password_resets' doesn't exist
+[09-Jun-2025 03:45:03 Europe/Berlin] Password reset error: Table 'login_db.password_resets' doesn't exist
+[09-Jun-2025 03:45:06 Europe/Berlin] Password reset error: Table 'login_db.password_resets' doesn't exist
+[09-Jun-2025 03:45:10 Europe/Berlin] Password reset error: Table 'login_db.password_resets' doesn't exist
+[09-Jun-2025 03:45:40 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\login\PHPMailer\src\SMTP.php:314) in C:\xampp\htdocs\login\forgot-password.php on line 73
+[09-Jun-2025 03:45:53 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\login\PHPMailer\src\SMTP.php:314) in C:\xampp\htdocs\login\forgot-password.php on line 73
+[09-Jun-2025 03:47:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\login\PHPMailer\src\SMTP.php:314) in C:\xampp\htdocs\login\forgot-password.php on line 73
+[09-Jun-2025 03:48:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\login\PHPMailer\src\SMTP.php:314) in C:\xampp\htdocs\login\forgot-password.php on line 73
+[09-Jun-2025 03:48:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\login\PHPMailer\src\SMTP.php:314) in C:\xampp\htdocs\login\forgot-password.php on line 73
+[09-Jun-2025 03:54:13 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\login\forgot-password.php on line 47
+[09-Jun-2025 03:54:13 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\login\EmailService.php on line 140
+[09-Jun-2025 03:58:33 Europe/Berlin] PHP Warning:  Undefined array key "username" in C:\xampp\htdocs\login\forgot-password.php on line 47
+[09-Jun-2025 03:58:33 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\login\EmailService.php on line 140
+[09-Jun-2025 03:59:17 Europe/Berlin] PHP Fatal error:  Cannot declare class PHPMailer\PHPMailer\Exception, because the name is already in use in C:\xampp\htdocs\login\PHPMailer\src\Exception.php on line 29
+[09-Jun-2025 03:59:41 Europe/Berlin] Debug - Verifying code: 450071 for email: trancem260@gmail.com
+[09-Jun-2025 03:59:41 Europe/Berlin] Debug - Stored code in DB: 457463
+[09-Jun-2025 03:59:41 Europe/Berlin] Debug - Stored expiry in DB: 2025-06-09 04:13:33
+[09-Jun-2025 03:59:41 Europe/Berlin] Debug - Current time: 2025-06-09 03:59:41
+[09-Jun-2025 03:59:41 Europe/Berlin] Debug - Number of matching rows: 0
+[09-Jun-2025 03:59:41 Europe/Berlin] Debug - Code validation failed. MySQL Error: 
+[09-Jun-2025 04:09:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\login\PHPMailer\src\SMTP.php:314) in C:\xampp\htdocs\login\ForgotPassword.php on line 72
+[09-Jun-2025 04:11:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\login\PHPMailer\src\SMTP.php:314) in C:\xampp\htdocs\login\forgot-password.php on line 72
+[09-Jun-2025 04:17:43 Europe/Berlin] PHP Fatal error:  Cannot declare class PHPMailer\PHPMailer\Exception, because the name is already in use in C:\xampp\htdocs\login\PHPMailer\src\Exception.php on line 29
+[09-Jun-2025 04:31:12 Europe/Berlin] PHP Fatal error:  Cannot declare class PHPMailer\PHPMailer\Exception, because the name is already in use in C:\xampp\htdocs\login\PHPMailer\src\Exception.php on line 29
+[09-Jun-2025 04:34:17 Europe/Berlin] PHP Fatal error:  Cannot declare class PHPMailer\PHPMailer\Exception, because the name is already in use in C:\xampp\htdocs\login\PHPMailer\src\Exception.php on line 29
+[09-Jun-2025 04:57:50 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\login\PHPMailer\src\SMTP.php:314) in C:\xampp\htdocs\login\ForgotPassword.php on line 73
+[09-Jun-2025 05:17:48 Europe/Berlin] Reset Password Error: Unknown column 'user_id' in 'field list'
+[09-Jun-2025 06:17:46 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 06:17:46 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 06:17:46 Europe/Berlin] New password length: 8
+[09-Jun-2025 06:17:46 Europe/Berlin] Found matching reset code: Yes
+[09-Jun-2025 06:17:46 Europe/Berlin] Generated new password hash: $2y$10$9SDtmQt6GZ.FN...
+[09-Jun-2025 06:17:46 Europe/Berlin] Initial hash verification: Success
+[09-Jun-2025 06:17:46 Europe/Berlin] Rows affected by update: 1
+[09-Jun-2025 06:17:46 Europe/Berlin] Final password verification: Success
+[09-Jun-2025 06:17:46 Europe/Berlin] Stored hash: $2y$10$9SDtmQt6GZ.FN...
+[09-Jun-2025 06:17:46 Europe/Berlin] Password successfully updated for email: trancem260@gmail.com
+[09-Jun-2025 06:19:24 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 06:19:24 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 06:19:24 Europe/Berlin] New password length: 8
+[09-Jun-2025 06:19:24 Europe/Berlin] Found matching reset code: Yes
+[09-Jun-2025 06:19:24 Europe/Berlin] Generated new password hash: $2y$10$YH5/6a8kwP/LQ...
+[09-Jun-2025 06:19:24 Europe/Berlin] Initial hash verification: Success
+[09-Jun-2025 06:19:24 Europe/Berlin] Rows affected by update: 1
+[09-Jun-2025 06:19:24 Europe/Berlin] Final password verification: Success
+[09-Jun-2025 06:19:24 Europe/Berlin] Stored hash: $2y$10$YH5/6a8kwP/LQ...
+[09-Jun-2025 06:19:24 Europe/Berlin] Password successfully updated for email: trancem260@gmail.com
+[09-Jun-2025 06:22:58 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 06:22:58 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 06:22:58 Europe/Berlin] New password length: 8
+[09-Jun-2025 06:22:58 Europe/Berlin] Found matching reset code: No
+[09-Jun-2025 06:22:58 Europe/Berlin] Stored reset code: 385462
+[09-Jun-2025 06:22:58 Europe/Berlin] Provided reset code: 385642
+[09-Jun-2025 06:22:58 Europe/Berlin] Reset code expiry: 2025-06-09 07:22:25
+[09-Jun-2025 06:23:26 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 06:23:26 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 06:23:26 Europe/Berlin] New password length: 8
+[09-Jun-2025 06:23:26 Europe/Berlin] Found matching reset code: Yes
+[09-Jun-2025 06:23:26 Europe/Berlin] Generated new password hash: $2y$10$2wf8QmksVb61p...
+[09-Jun-2025 06:23:26 Europe/Berlin] Initial hash verification: Success
+[09-Jun-2025 06:23:26 Europe/Berlin] Rows affected by update: 1
+[09-Jun-2025 06:23:26 Europe/Berlin] Final password verification: Success
+[09-Jun-2025 06:23:26 Europe/Berlin] Stored hash: $2y$10$2wf8QmksVb61p...
+[09-Jun-2025 06:23:26 Europe/Berlin] Password successfully updated for email: trancem260@gmail.com
+[09-Jun-2025 06:27:56 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 06:27:56 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 06:27:56 Europe/Berlin] New password length: 8
+[09-Jun-2025 06:27:56 Europe/Berlin] Found matching reset code: Yes
+[09-Jun-2025 06:27:56 Europe/Berlin] Generated new password hash: $2y$10$x02hUkJHvxYKV...
+[09-Jun-2025 06:27:56 Europe/Berlin] Initial hash verification: Success
+[09-Jun-2025 06:27:56 Europe/Berlin] Rows affected by update: 1
+[09-Jun-2025 06:27:56 Europe/Berlin] Final password verification: Success
+[09-Jun-2025 06:27:56 Europe/Berlin] Stored hash in DB: $2y$10$x02hUkJHvxYKV...
+[09-Jun-2025 06:27:56 Europe/Berlin] Password successfully updated for email: trancem260@gmail.com
+[09-Jun-2025 06:45:24 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 06:45:24 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 06:45:24 Europe/Berlin] New password length: 8
+[09-Jun-2025 06:45:24 Europe/Berlin] Verifying reset code for email: trancem260@gmail.com
+[09-Jun-2025 06:45:24 Europe/Berlin] Reset code provided: 382762
+[09-Jun-2025 06:45:24 Europe/Berlin] Found matching reset code: No
+[09-Jun-2025 06:45:24 Europe/Berlin] Stored reset code: 382762
+[09-Jun-2025 06:45:24 Europe/Berlin] Provided reset code: 382762
+[09-Jun-2025 06:45:24 Europe/Berlin] Reset code expiry: 2025-06-09 07:44:48
+[09-Jun-2025 06:45:24 Europe/Berlin] Current time: 2025-06-09 06:45:24
+[09-Jun-2025 06:45:47 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 06:45:47 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 06:45:47 Europe/Berlin] New password length: 8
+[09-Jun-2025 06:45:47 Europe/Berlin] Verifying reset code for email: trancem260@gmail.com
+[09-Jun-2025 06:45:47 Europe/Berlin] Reset code provided: 382762
+[09-Jun-2025 06:45:47 Europe/Berlin] Found matching reset code: No
+[09-Jun-2025 06:45:47 Europe/Berlin] Stored reset code: 382762
+[09-Jun-2025 06:45:47 Europe/Berlin] Provided reset code: 382762
+[09-Jun-2025 06:45:47 Europe/Berlin] Reset code expiry: 2025-06-09 07:44:48
+[09-Jun-2025 06:45:47 Europe/Berlin] Current time: 2025-06-09 06:45:47
+[09-Jun-2025 06:46:44 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 06:46:44 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 06:46:44 Europe/Berlin] New password length: 8
+[09-Jun-2025 06:46:44 Europe/Berlin] Verifying reset code for email: trancem260@gmail.com
+[09-Jun-2025 06:46:44 Europe/Berlin] Reset code provided: 614689
+[09-Jun-2025 06:46:44 Europe/Berlin] Found matching reset code: No
+[09-Jun-2025 06:46:44 Europe/Berlin] Stored reset code: 614689
+[09-Jun-2025 06:46:44 Europe/Berlin] Provided reset code: 614689
+[09-Jun-2025 06:46:44 Europe/Berlin] Reset code expiry: 2025-06-09 07:46:10
+[09-Jun-2025 06:46:44 Europe/Berlin] Current time: 2025-06-09 06:46:44
+[09-Jun-2025 06:51:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'reset_attempts' in 'field list' in C:\xampp\htdocs\login\ForgotPassword.php:64
+Stack trace:
+#0 C:\xampp\htdocs\login\ForgotPassword.php(64): mysqli_prepare(Object(mysqli), 'UPDATE users SE...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\ForgotPassword.php on line 64
+[09-Jun-2025 06:52:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'reset_attempts' in 'field list' in C:\xampp\htdocs\login\ForgotPassword.php:64
+Stack trace:
+#0 C:\xampp\htdocs\login\ForgotPassword.php(64): mysqli_prepare(Object(mysqli), 'UPDATE users SE...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\ForgotPassword.php on line 64
+[09-Jun-2025 06:58:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'reset_attempts' in 'field list' in C:\xampp\htdocs\login\ForgotPassword.php:64
+Stack trace:
+#0 C:\xampp\htdocs\login\ForgotPassword.php(64): mysqli_prepare(Object(mysqli), 'UPDATE users SE...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\ForgotPassword.php on line 64
+[09-Jun-2025 07:02:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'reset_attempts' in 'field list' in C:\xampp\htdocs\login\ForgotPassword.php:67
+Stack trace:
+#0 C:\xampp\htdocs\login\ForgotPassword.php(67): mysqli_prepare(Object(mysqli), 'UPDATE users SE...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\ForgotPassword.php on line 67
+[09-Jun-2025 07:03:15 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 07:03:15 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 07:03:15 Europe/Berlin] New password length: 8
+[09-Jun-2025 07:04:08 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 07:04:08 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 07:04:08 Europe/Berlin] New password length: 8
+[09-Jun-2025 07:04:47 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 07:04:47 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 07:04:47 Europe/Berlin] New password length: 8
+[09-Jun-2025 07:05:18 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 07:05:18 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 07:05:18 Europe/Berlin] New password length: 8
+[09-Jun-2025 07:05:37 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 07:05:37 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 07:05:37 Europe/Berlin] New password length: 9
+[09-Jun-2025 07:05:37 Europe/Berlin] Reset Password Error: Unknown column 'reset_attempts' in 'field list'
+[09-Jun-2025 07:12:47 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[09-Jun-2025 07:12:47 Europe/Berlin] Attempting to send password reset email to: trancem260@gmail.com
+[09-Jun-2025 07:12:51 Europe/Berlin] Successfully sent password reset email to: trancem260@gmail.com
+[09-Jun-2025 07:13:14 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[09-Jun-2025 07:13:14 Europe/Berlin] Reset code length: 6
+[09-Jun-2025 07:13:14 Europe/Berlin] New password length: 8
+[09-Jun-2025 07:13:14 Europe/Berlin] Found matching reset code: Yes
+[09-Jun-2025 07:13:14 Europe/Berlin] Generated new password hash: $2y$10$L2GzvNxOSGHgp...
+[09-Jun-2025 07:13:14 Europe/Berlin] Initial hash verification: Success
+[09-Jun-2025 07:13:14 Europe/Berlin] Rows affected by update: 1
+[09-Jun-2025 07:13:14 Europe/Berlin] Final password verification: Success
+[09-Jun-2025 07:13:14 Europe/Berlin] Stored hash in DB: $2y$10$L2GzvNxOSGHgp...
+[09-Jun-2025 07:13:15 Europe/Berlin] Password successfully updated for email: trancem260@gmail.com
+[10-Jun-2025 04:56:32 Europe/Berlin] Login attempt - Email: abcd@gmail.com
+[10-Jun-2025 04:56:32 Europe/Berlin] Login attempt - Password length: 6
+[10-Jun-2025 04:56:32 Europe/Berlin] Login failed - Email not found: abcd@gmail.com
+[10-Jun-2025 04:56:37 Europe/Berlin] Login attempt - Email: abcd@gmail.com
+[10-Jun-2025 04:56:37 Europe/Berlin] Login attempt - Password length: 6
+[10-Jun-2025 04:56:37 Europe/Berlin] Login failed - Email not found: abcd@gmail.com
+[10-Jun-2025 04:57:20 Europe/Berlin] Login attempt - Email: abcd@gmail.com
+[10-Jun-2025 04:57:20 Europe/Berlin] Login attempt - Password length: 6
+[10-Jun-2025 04:57:20 Europe/Berlin] Login failed - Email not found: abcd@gmail.com
+[10-Jun-2025 03:05:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\xampp\htdocs\login\config.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\setup_chat_table.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\login\config.php on line 58
+[10-Jun-2025 03:20:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\xampp\htdocs\login\config.php:59
+Stack trace:
+#0 C:\xampp\htdocs\login\setup_chat_table.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\login\config.php on line 59
+[10-Jun-2025 05:27:51 Europe/Berlin] Login attempt - Email: abcd@gmail.com
+[10-Jun-2025 05:27:51 Europe/Berlin] Login attempt - Password length: 6
+[10-Jun-2025 05:27:52 Europe/Berlin] Login failed - Email not found: abcd@gmail.com
+[10-Jun-2025 05:27:58 Europe/Berlin] Login attempt - Email: abcd@gmail.com
+[10-Jun-2025 05:27:58 Europe/Berlin] Login attempt - Password length: 6
+[10-Jun-2025 05:27:58 Europe/Berlin] Login failed - Email not found: abcd@gmail.com
+[10-Jun-2025 05:28:05 Europe/Berlin] Login attempt - Email: abcd@gmail.com
+[10-Jun-2025 05:28:05 Europe/Berlin] Login attempt - Password length: 8
+[10-Jun-2025 05:28:05 Europe/Berlin] Login failed - Email not found: abcd@gmail.com
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant SECURE_ACCESS already defined in C:\xampp\htdocs\login\ForgotPassword.php on line 7
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant GMAIL_USERNAME already defined in C:\xampp\htdocs\login\config.php on line 20
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant GMAIL_APP_PASSWORD already defined in C:\xampp\htdocs\login\config.php on line 21
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant DB_HOST already defined in C:\xampp\htdocs\login\config.php on line 24
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant DB_USER already defined in C:\xampp\htdocs\login\config.php on line 25
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant DB_PASS already defined in C:\xampp\htdocs\login\config.php on line 26
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant DB_NAME already defined in C:\xampp\htdocs\login\config.php on line 27
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant DB_CHARSET already defined in C:\xampp\htdocs\login\config.php on line 28
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant SMTP_HOST already defined in C:\xampp\htdocs\login\config.php on line 31
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant SMTP_PORT already defined in C:\xampp\htdocs\login\config.php on line 32
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant SMTP_USERNAME already defined in C:\xampp\htdocs\login\config.php on line 33
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant SMTP_PASSWORD already defined in C:\xampp\htdocs\login\config.php on line 34
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant SITE_URL already defined in C:\xampp\htdocs\login\config.php on line 45
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant SITE_NAME already defined in C:\xampp\htdocs\login\config.php on line 46
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant PASSWORD_RESET_EXPIRY already defined in C:\xampp\htdocs\login\config.php on line 49
+[10-Jun-2025 05:28:08 Europe/Berlin] PHP Warning:  Constant VERIFICATION_EXPIRY already defined in C:\xampp\htdocs\login\config.php on line 50
+[10-Jun-2025 05:29:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\xampp\htdocs\login\config.php:59
+Stack trace:
+#0 C:\xampp\htdocs\login\connection.php(6): require_once()
+#1 C:\xampp\htdocs\login\login.php(5): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\login\config.php on line 59
+[10-Jun-2025 05:30:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\xampp\htdocs\login\config.php:59
+Stack trace:
+#0 C:\xampp\htdocs\login\connection.php(6): require_once()
+#1 C:\xampp\htdocs\login\login.php(5): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\login\config.php on line 59
+[10-Jun-2025 05:30:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\xampp\htdocs\login\config.php:59
+Stack trace:
+#0 C:\xampp\htdocs\login\connection.php(6): require_once()
+#1 C:\xampp\htdocs\login\login.php(5): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\login\config.php on line 59
+[10-Jun-2025 05:30:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\xampp\htdocs\login\config.php:59
+Stack trace:
+#0 C:\xampp\htdocs\login\connection.php(6): require_once()
+#1 C:\xampp\htdocs\login\login.php(5): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\login\config.php on line 59
+[10-Jun-2025 05:30:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\xampp\htdocs\login\config.php:59
+Stack trace:
+#0 C:\xampp\htdocs\login\connection.php(6): require_once()
+#1 C:\xampp\htdocs\login\login.php(5): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\login\config.php on line 59
+[10-Jun-2025 05:30:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\xampp\htdocs\login\config.php:59
+Stack trace:
+#0 C:\xampp\htdocs\login\connection.php(6): require_once()
+#1 C:\xampp\htdocs\login\login.php(5): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\login\config.php on line 59
+[10-Jun-2025 05:30:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\xampp\htdocs\login\config.php:59
+Stack trace:
+#0 C:\xampp\htdocs\login\connection.php(6): require_once()
+#1 C:\xampp\htdocs\login\login.php(5): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\login\config.php on line 59
+[10-Jun-2025 05:38:44 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[10-Jun-2025 05:38:44 Europe/Berlin] Attempting to send password reset email to: trancem260@gmail.com
+[10-Jun-2025 05:38:48 Europe/Berlin] Successfully sent password reset email to: trancem260@gmail.com
+[10-Jun-2025 06:40:47 Europe/Berlin] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in C:\xampp\htdocs\login\config.php on line 18
+[10-Jun-2025 06:40:51 Europe/Berlin] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in C:\xampp\htdocs\login\config.php on line 18
+[10-Jun-2025 06:40:51 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[10-Jun-2025 06:40:55 Europe/Berlin] Email sent successfully to: trancem260@gmail.com
+[10-Jun-2025 06:40:55 Europe/Berlin] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in C:\xampp\htdocs\login\config.php on line 18
+[10-Jun-2025 06:54:55 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[10-Jun-2025 06:54:55 Europe/Berlin] Attempting to send password reset email to: trancem260@gmail.com
+[10-Jun-2025 06:54:59 Europe/Berlin] Successfully sent password reset email to: trancem260@gmail.com
+[10-Jun-2025 07:46:45 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[10-Jun-2025 07:46:45 Europe/Berlin] Attempting to send password reset email to: trancem260@gmail.com
+[10-Jun-2025 07:46:49 Europe/Berlin] Successfully sent password reset email to: trancem260@gmail.com
+[10-Jun-2025 07:47:28 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[10-Jun-2025 07:47:28 Europe/Berlin] Reset code length: 6
+[10-Jun-2025 07:47:28 Europe/Berlin] New password length: 8
+[10-Jun-2025 07:47:28 Europe/Berlin] Found matching reset code: Yes
+[10-Jun-2025 07:47:28 Europe/Berlin] Generated new password hash: $2y$10$zbTPQIxdclXxT...
+[10-Jun-2025 07:47:28 Europe/Berlin] Initial hash verification: Success
+[10-Jun-2025 07:47:28 Europe/Berlin] Rows affected by update: 1
+[10-Jun-2025 07:47:28 Europe/Berlin] Final password verification: Success
+[10-Jun-2025 07:47:28 Europe/Berlin] Stored hash in DB: $2y$10$zbTPQIxdclXxT...
+[10-Jun-2025 07:47:28 Europe/Berlin] Password successfully updated for email: trancem260@gmail.com
+[10-Jun-2025 08:23:56 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[10-Jun-2025 08:24:00 Europe/Berlin] Verification email sent successfully to: trancem05@gmail.com
+[10-Jun-2025 08:24:30 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[10-Jun-2025 08:24:34 Europe/Berlin] Verification email sent successfully to: trancem05@gmail.com
+[10-Jun-2025 08:27:06 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[10-Jun-2025 08:27:06 Europe/Berlin] Attempting to send password reset email to: trancem260@gmail.com
+[10-Jun-2025 08:27:10 Europe/Berlin] Successfully sent password reset email to: trancem260@gmail.com
+[10-Jun-2025 09:08:58 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[10-Jun-2025 09:08:58 Europe/Berlin] Attempting to send password reset email to: trancem260@gmail.com
+[10-Jun-2025 09:09:03 Europe/Berlin] Successfully sent password reset email to: trancem260@gmail.com
+[10-Jun-2025 09:09:28 Europe/Berlin] Reset attempt for email: trancem260@gmail.com
+[10-Jun-2025 09:09:28 Europe/Berlin] Reset code length: 6
+[10-Jun-2025 09:09:28 Europe/Berlin] New password length: 6
+[10-Jun-2025 09:09:28 Europe/Berlin] Found matching reset code: Yes
+[10-Jun-2025 09:09:29 Europe/Berlin] Generated new password hash: $2y$10$VXF.Gjlm5WjWx...
+[10-Jun-2025 09:09:29 Europe/Berlin] Initial hash verification: Success
+[10-Jun-2025 09:09:29 Europe/Berlin] Rows affected by update: 1
+[10-Jun-2025 09:09:29 Europe/Berlin] Final password verification: Success
+[10-Jun-2025 09:09:29 Europe/Berlin] Stored hash in DB: $2y$10$VXF.Gjlm5WjWx...
+[10-Jun-2025 09:09:29 Europe/Berlin] Password successfully updated for email: trancem260@gmail.com
+[19-Jun-2025 06:51:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 06:55:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 06:55:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 06:56:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 07:06:06 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 07:06:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 07:08:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 07:08:20 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 07:09:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 07:12:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 07:14:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 07:17:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 07:20:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:20:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:22:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'verification_token' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:22:30 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'verification_token' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:23:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:23:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:24:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'verification_token' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:24:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'verification_token' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:24:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'verification_token' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:25:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'verification_token' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:28:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'verification_token' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:28:36 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'verification_token' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:29:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 07:30:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(58): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 58
+[19-Jun-2025 09:49:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 09:49:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 09:57:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 09:58:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 10:02:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 10:02:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 10:06:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\login\signup.php:50
+Stack trace:
+#0 C:\xampp\htdocs\login\signup.php(50): mysqli_prepare(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\login\signup.php on line 50
+[19-Jun-2025 10:13:12 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'login_db' in C:\xampp\htdocs\login\config.php:58
+Stack trace:
+#0 C:\xampp\htdocs\login\config.php(58): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'login_db')
+#1 C:\xampp\htdocs\login\EmailService.php(20): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\login\signup.php(9): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\login\config.php on line 58
+[19-Jun-2025 10:14:42 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[19-Jun-2025 10:28:33 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[19-Jun-2025 11:01:30 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[19-Jun-2025 13:15:05 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[19-Jun-2025 13:15:06 Europe/Berlin] Attempting to send password reset email to: trancem05@gmail.com
+[19-Jun-2025 13:15:10 Europe/Berlin] Successfully sent password reset email to: trancem05@gmail.com
+[19-Jun-2025 13:15:45 Europe/Berlin] Reset attempt for email: trancem05@gmail.com
+[19-Jun-2025 13:15:45 Europe/Berlin] Reset code length: 6
+[19-Jun-2025 13:15:45 Europe/Berlin] New password length: 6
+[19-Jun-2025 13:15:45 Europe/Berlin] Found matching reset code: Yes
+[19-Jun-2025 13:15:45 Europe/Berlin] Generated new password hash: $2y$10$Exi7q7XeKL/Ip...
+[19-Jun-2025 13:15:46 Europe/Berlin] Initial hash verification: Success
+[19-Jun-2025 13:15:46 Europe/Berlin] Rows affected by update: 1
+[19-Jun-2025 13:15:46 Europe/Berlin] Final password verification: Success
+[19-Jun-2025 13:15:46 Europe/Berlin] Stored hash in DB: $2y$10$Exi7q7XeKL/Ip...
+[19-Jun-2025 13:15:46 Europe/Berlin] Password successfully updated for email: trancem05@gmail.com
+[19-Jun-2025 15:03:05 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[20-Jun-2025 05:02:12 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
+[20-Jun-2025 05:12:49 Europe/Berlin] EmailService initialized successfully with SMTP host: smtp.gmail.com
